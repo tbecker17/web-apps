@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  
-end
+  resources "tacos"
+  resources "dice"
+  resources "companies"
+  resources "contacts"
+end 
